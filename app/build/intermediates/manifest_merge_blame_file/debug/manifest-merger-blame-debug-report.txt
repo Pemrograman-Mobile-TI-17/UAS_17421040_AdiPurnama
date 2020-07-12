@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.Adi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\UasAdi\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\UasAdi\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\UasAdi\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\UasAdi\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\UasAdi\app\src\main\AndroidManifest.xml:6:5-79
+12-->E:\UasAdi\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->E:\UasAdi\app\src\main\AndroidManifest.xml:7:5-80
+13-->E:\UasAdi\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->E:\UasAdi\app\src\main\AndroidManifest.xml:8:5-81
+14-->E:\UasAdi\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->E:\UasAdi\app\src\main\AndroidManifest.xml:9:5-82
+15-->E:\UasAdi\app\src\main\AndroidManifest.xml:9:22-79
+16
+17    <application
+17-->E:\UasAdi\app\src\main\AndroidManifest.xml:11:5-35:19
+18        android:allowBackup="true"
+18-->E:\UasAdi\app\src\main\AndroidManifest.xml:12:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\Muhammad Suhendri\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->E:\UasAdi\app\src\main\AndroidManifest.xml:13:9-43
+22        android:label="@string/app_name"
+22-->E:\UasAdi\app\src\main\AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->E:\UasAdi\app\src\main\AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->E:\UasAdi\app\src\main\AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme"
+26-->E:\UasAdi\app\src\main\AndroidManifest.xml:18:9-40
+27        android:usesCleartextTraffic="true" >
+27-->E:\UasAdi\app\src\main\AndroidManifest.xml:17:9-44
+28        <activity android:name="com.Adi.pembeli.HomePembeliActivity" />
+28-->E:\UasAdi\app\src\main\AndroidManifest.xml:19:9-65
+28-->E:\UasAdi\app\src\main\AndroidManifest.xml:19:19-62
+29        <activity android:name="com.Adi.pembeli.DetailPembeli" />
+29-->E:\UasAdi\app\src\main\AndroidManifest.xml:20:9-59
+29-->E:\UasAdi\app\src\main\AndroidManifest.xml:20:19-56
+30        <activity android:name="com.Adi.admin.Profile" />
+30-->E:\UasAdi\app\src\main\AndroidManifest.xml:21:9-51
+30-->E:\UasAdi\app\src\main\AndroidManifest.xml:21:19-48
+31        <activity android:name="com.Adi.admin.InputDataSnack" />
+31-->E:\UasAdi\app\src\main\AndroidManifest.xml:22:9-58
+31-->E:\UasAdi\app\src\main\AndroidManifest.xml:22:19-55
+32        <activity android:name="com.Adi.admin.HomeAdminActivity" />
+32-->E:\UasAdi\app\src\main\AndroidManifest.xml:23:9-61
+32-->E:\UasAdi\app\src\main\AndroidManifest.xml:23:19-58
+33        <activity android:name="com.Adi.admin.EditSnackDanHapusActivity" />
+33-->E:\UasAdi\app\src\main\AndroidManifest.xml:24:9-69
+33-->E:\UasAdi\app\src\main\AndroidManifest.xml:24:19-66
+34        <activity android:name="com.Adi.admin.ActivityDataSnack" />
+34-->E:\UasAdi\app\src\main\AndroidManifest.xml:25:9-61
+34-->E:\UasAdi\app\src\main\AndroidManifest.xml:25:19-58
+35        <activity android:name="com.Adi.MainActivity" />
+35-->E:\UasAdi\app\src\main\AndroidManifest.xml:26:9-49
+35-->E:\UasAdi\app\src\main\AndroidManifest.xml:26:19-47
+36        <activity android:name="com.Adi.user.RegistrasiActivity" />
+36-->E:\UasAdi\app\src\main\AndroidManifest.xml:27:9-61
+36-->E:\UasAdi\app\src\main\AndroidManifest.xml:27:19-58
+37        <activity android:name="com.Adi.user.LoginActivity" >
+37-->E:\UasAdi\app\src\main\AndroidManifest.xml:28:9-34:20
+37-->E:\UasAdi\app\src\main\AndroidManifest.xml:28:19-53
+38            <intent-filter>
+38-->E:\UasAdi\app\src\main\AndroidManifest.xml:29:13-33:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->E:\UasAdi\app\src\main\AndroidManifest.xml:30:17-69
+39-->E:\UasAdi\app\src\main\AndroidManifest.xml:30:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->E:\UasAdi\app\src\main\AndroidManifest.xml:32:17-77
+41-->E:\UasAdi\app\src\main\AndroidManifest.xml:32:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->[com.karumi:dexter:5.0.0] C:\Users\Muhammad Suhendri\.gradle\caches\transforms-2\files-2.1\5716e7ae4c002e59ecbf52e8f62e71ac\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+45            android:name="com.karumi.dexter.DexterActivity"
+45-->[com.karumi:dexter:5.0.0] C:\Users\Muhammad Suhendri\.gradle\caches\transforms-2\files-2.1\5716e7ae4c002e59ecbf52e8f62e71ac\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+46            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+46-->[com.karumi:dexter:5.0.0] C:\Users\Muhammad Suhendri\.gradle\caches\transforms-2\files-2.1\5716e7ae4c002e59ecbf52e8f62e71ac\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+47
+48        <provider
+48-->[com.squareup.picasso:picasso:2.71828] C:\Users\Muhammad Suhendri\.gradle\caches\transforms-2\files-2.1\0bbcd4de2336de5585f9b59e14c96f93\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+49            android:name="com.squareup.picasso.PicassoProvider"
+49-->[com.squareup.picasso:picasso:2.71828] C:\Users\Muhammad Suhendri\.gradle\caches\transforms-2\files-2.1\0bbcd4de2336de5585f9b59e14c96f93\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+50            android:authorities="com.Adi.com.squareup.picasso"
+50-->[com.squareup.picasso:picasso:2.71828] C:\Users\Muhammad Suhendri\.gradle\caches\transforms-2\files-2.1\0bbcd4de2336de5585f9b59e14c96f93\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+51            android:exported="false" />
+51-->[com.squareup.picasso:picasso:2.71828] C:\Users\Muhammad Suhendri\.gradle\caches\transforms-2\files-2.1\0bbcd4de2336de5585f9b59e14c96f93\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+52    </application>
+53
+54</manifest>
